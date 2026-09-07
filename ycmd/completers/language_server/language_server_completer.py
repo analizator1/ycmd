@@ -41,7 +41,7 @@ from ycmd.completers.language_server import language_server_protocol as lsp
 NO_HOVER_INFORMATION = 'No hover information.'
 
 # All timeout values are in seconds
-REQUEST_TIMEOUT_COMPLETION = 5
+REQUEST_TIMEOUT_COMPLETION = 10
 REQUEST_TIMEOUT_INITIALISE = 30
 REQUEST_TIMEOUT_COMMAND    = 30
 CONNECTION_TIMEOUT         = 5
